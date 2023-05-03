@@ -10,7 +10,7 @@ config_s2i
 
 ######## CUSTOMIZATION STARTS HERE ############
 
-echo "---> Installing application source"
+echo "---> Enabling s2i support in httpd24 image"
 
 
 ######## CUSTOMIZATION ENDS HERE ############
