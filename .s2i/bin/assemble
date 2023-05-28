@@ -11,8 +11,9 @@ config_s2i
 ######## CUSTOMIZATION STARTS HERE ############
 
 echo "---> Installing application source"
-
-
+DATE=$(date "+%d/%m/%Y")
+echo "Page built om $DATE" >> info.html
+echo "Page generated"
 
 ######## CUSTOMIZATION ENDS HERE ############
 
